@@ -8,6 +8,8 @@ import { InterpolationBindingComponent } from './Data_binding/interpolation-bind
 import { ProbertyBindingComponent } from './Data_binding/proberty-binding/proberty-binding.component';
 import { ClassBindingComponent } from './Data_binding/class-binding/class-binding.component';
 import { StyleBindingComponent } from './Data_binding/style-binding/style-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TempleteRefranceVarableComponent } from './templete-refrance-varable/templete-refrance-varable.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { StyleBindingComponent } from './Data_binding/style-binding/style-bindin
     ProbertyBindingComponent,
     ClassBindingComponent,
     StyleBindingComponent,
+    EventBindingComponent,
+    TempleteRefranceVarableComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
