@@ -16,6 +16,7 @@ import { NgIfComponent } from './Stracture directives/ng-if/ng-if.component';
 import { NgswitchComponent } from './Stracture directives/ngswitch/ngswitch.component';
 import { NgForComponent } from './Stracture directives/ng-for/ng-for.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { SquarePipe } from './square.pipe';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { PipesComponent } from './pipes/pipes.component';
     NgswitchComponent,
     NgForComponent,
     PipesComponent,
+    SquarePipe,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
