@@ -10,6 +10,8 @@ import { ClassBindingComponent } from './Data_binding/class-binding/class-bindin
 import { StyleBindingComponent } from './Data_binding/style-binding/style-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TempleteRefranceVarableComponent } from './templete-refrance-varable/templete-refrance-varable.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,8 +23,9 @@ import { TempleteRefranceVarableComponent } from './templete-refrance-varable/te
     StyleBindingComponent,
     EventBindingComponent,
     TempleteRefranceVarableComponent,
+    TwoWayBindingComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
