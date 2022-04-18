@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { NgIfComponent } from './Stracture directives/ng-if/ng-if.component';
 import { NgswitchComponent } from './Stracture directives/ngswitch/ngswitch.component';
 import { NgForComponent } from './Stracture directives/ng-for/ng-for.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { NgForComponent } from './Stracture directives/ng-for/ng-for.component';
     NgIfComponent,
     NgswitchComponent,
     NgForComponent,
+    PipesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
