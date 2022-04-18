@@ -12,6 +12,9 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TempleteRefranceVarableComponent } from './templete-refrance-varable/templete-refrance-varable.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
+import { NgIfComponent } from './Stracture directives/ng-if/ng-if.component';
+import { NgswitchComponent } from './Stracture directives/ngswitch/ngswitch.component';
+import { NgForComponent } from './Stracture directives/ng-for/ng-for.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { FormsModule } from '@angular/forms';
     EventBindingComponent,
     TempleteRefranceVarableComponent,
     TwoWayBindingComponent,
+    NgIfComponent,
+    NgswitchComponent,
+    NgForComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

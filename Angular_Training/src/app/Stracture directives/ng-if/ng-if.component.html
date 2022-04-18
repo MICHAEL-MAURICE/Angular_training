@@ -1,0 +1,19 @@
+<h2 *ngIf="isLogin then logedIn else elsetemp"></h2>
+
+
+<ng-template #logedIn>
+
+  <h2>
+    {{login()}}
+  </h2>
+
+</ng-template>
+
+
+<ng-template #elsetemp>
+
+  <h2>
+    {{message}}
+  </h2>
+
+</ng-template>
