@@ -17,6 +17,8 @@ import { NgswitchComponent } from './Stracture directives/ngswitch/ngswitch.comp
 import { NgForComponent } from './Stracture directives/ng-for/ng-for.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { SquarePipe } from './square.pipe';
+import { ParentComponentComponent } from './Component interaction/parent-component/parent-component.component';
+import { ChildComponentComponent } from './Component interaction/child-component/child-component.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { SquarePipe } from './square.pipe';
     NgForComponent,
     PipesComponent,
     SquarePipe,
+    ParentComponentComponent,
+    ChildComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
